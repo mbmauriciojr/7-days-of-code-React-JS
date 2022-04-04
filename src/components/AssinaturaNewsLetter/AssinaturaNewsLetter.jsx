@@ -7,6 +7,8 @@ import {
   TextContainer,
   Title,
   Text,
+  Form,
+  FormGroup,
 } from './styles';
 
 function AssinaturaNewsLetter() {
@@ -35,12 +37,14 @@ function AssinaturaNewsLetter() {
           </Text>
         </TextContainer>
 
-        <form action="/">
-          <input type="email" placeholder="Insira o seu email" />
-          <Button type="button">
-            Assinar newsletter
-          </Button>
-        </form>
+        <Form action="/">
+          <FormGroup>
+            <input type="email" placeholder="Insira o seu email" />
+            <Button type="button">
+              Assinar newsletter
+            </Button>
+          </FormGroup>
+        </Form>
       </Container>
     </Body>
   );
