@@ -14,6 +14,16 @@ main {
   margin: auto;
 }
 
+@media(min-width: 920px) {
+  body {
+      background-image: url('/images/body-shape.svg'),
+                        url('/images/bg.jpg');
+      background-repeat: no-repeat, 
+                        repeat-x;
+      background-position: right top;
+  }
+}
+
 `;
 
 export default GlobalSytle;
