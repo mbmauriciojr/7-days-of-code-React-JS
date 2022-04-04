@@ -2,10 +2,12 @@ import React from 'react';
 
 function AssinaturaNewsLetter() {
   return (
-    <div>
+    <form action="/">
       <input type="email" placeholder="Insira o seu email" />
-      <button type="button">Assinar newsletter</button>
-    </div>
+      <button type="button">
+        Assinar newsletter
+      </button>
+    </form>
   );
 }
 
