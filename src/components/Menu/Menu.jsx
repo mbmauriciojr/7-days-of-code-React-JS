@@ -6,6 +6,9 @@ import { Header, NavMenu } from './styles';
 function Menu() {
   return (
     <Header>
+      <div>
+        <img alt="Logotipo Casa Verde" src="/images/logo.svg" />
+      </div>
       <NavMenu>
         <Link to="/">Como fazer</Link>
         /
