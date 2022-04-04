@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Menu from '../../components/Menu/Menu';
+
 function HomePage() {
   return (
     <main>
-      <p>Under Construction</p>
+      <Menu />
     </main>
   );
 }
