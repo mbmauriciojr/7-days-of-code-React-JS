@@ -63,6 +63,19 @@ const Title = styled.section`
   }
 `;
 
+const Text = styled.section`
+  p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+`;
+
 const Button = styled.button`
   background: #FFCB47;
   border-radius: 3px;
@@ -78,4 +91,5 @@ export {
   Container,
   TextContainer,
   Title,
+  Text,
 };
