@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Button from './styles';
+import { Button, Body, Container } from './styles';
 
 function AssinaturaNewsLetter() {
   return (
-    <div>
-      <div>
+    <Body>
+      <Container>
         <section>
           <h1>
             Sua casa com as
@@ -24,7 +24,7 @@ function AssinaturaNewsLetter() {
             a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.
           </p>
         </section>
-      </div>
+      </Container>
 
       <form action="/">
         <input type="email" placeholder="Insira o seu email" />
@@ -32,7 +32,7 @@ function AssinaturaNewsLetter() {
           Assinar newsletter
         </Button>
       </form>
-    </div>
+    </Body>
   );
 }
 
