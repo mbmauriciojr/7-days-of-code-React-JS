@@ -30,6 +30,39 @@ const Container = styled.div`
   max-width: 585px;
 `;
 
+const TextContainer = styled.div`
+  max-width: 481px;
+  margin-bottom: 32px;
+`;
+
+const Title = styled.section`
+  h1 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  h1 strong {
+    font-family: Elsie Swash Caps;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  @media(min-width: 920px) {
+    h1 strong {
+      font-size: 82px;
+    }
+  }
+`;
+
 const Button = styled.button`
   background: #FFCB47;
   border-radius: 3px;
@@ -43,4 +76,6 @@ export {
   Button,
   Body,
   Container,
+  TextContainer,
+  Title,
 };
